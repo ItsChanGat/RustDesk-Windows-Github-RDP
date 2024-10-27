@@ -32,6 +32,9 @@ actions = [
 # Wait for a few seconds to give time to focus on the target application
 time.sleep(20)
 
+# Define the password as a variable
+password = "Jor3a_Ti9niya"  # Update this as needed
+
 # Perform the actions in the specified order
 for x, y, duration in actions:
     if (x, y) == (89, 159) or (x, y) == (88, 152):
@@ -39,12 +42,12 @@ for x, y, duration in actions:
         pag.rightClick(x, y, duration=duration)
     else:
         pag.click(x, y, duration=duration)
+        
     if (x, y) in [(278, 307), (278, 396)]:
         # For "first fill" and "second fill" coordinates, type the desired text
         pag.click(x, y, duration=duration)
         pag.keyDown('D')  # Press the "D" key
-        text_to_type = "Jor3aRDP"
-        pag.typewrite(text_to_type)
+        pag.typewrite(password)  # Type the password dynamically
 
 def save_echo_to_batch(file_path, echo_text):
     with open(file_path, 'a') as file:
