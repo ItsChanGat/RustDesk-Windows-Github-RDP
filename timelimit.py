@@ -2,8 +2,8 @@ import psutil
 import subprocess
 import time
 
-threshold_percentage = 100
-excluded_processes = ['devenv.exe', 'HopToDesk.exe', 'msedge.exe']  # List of process names to exclude
+threshold_percentage = 30
+excluded_processes = ['devenv.exe', 'HopToDesk.exe', 'msedge.exe', 'chrome.exe']  # List of process names to exclude
 
 while True:
     for process in psutil.process_iter(['pid', 'name', 'cpu_percent']):
