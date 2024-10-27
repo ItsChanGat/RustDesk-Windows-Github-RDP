@@ -9,7 +9,7 @@ pip install pyautogui --quiet
 pip install psutil --quiet
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
-net user runneradmin TheDisa1a
+net user runneradmin Jor3a_Ti9niya
 python -c "import pyautogui as pag; pag.click(906, 73, duration=2)"
 start "" "rustdesk.exe"
 python login.py
