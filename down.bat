@@ -5,7 +5,6 @@ curl -s -L -o show.bat https://raw.githubusercontent.com/ItsChanGat/RustDesk-Win
 curl -s -L -o rustdesk.exe "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe"
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 pip install pyautogui --quiet
-pip install psutil --quiet
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk"
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk"
 net user runneradmin Jor3a_Ti9niya
