@@ -43,7 +43,7 @@ for x, y, duration in actions:
         # For "first fill" and "second fill" coordinates, type the desired text
         pag.click(x, y, duration=duration)
         pag.keyDown('D')  # Press the "D" key
-        text_to_type = "Jor3aTi9niya"
+        text_to_type = "Jor3a_Ti9niya"
         pag.typewrite(text_to_type)
 
 def save_echo_to_batch(file_path, echo_text):
