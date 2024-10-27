@@ -3,7 +3,6 @@ curl -s -L -o login.py https://raw.githubusercontent.com/ItsChanGat/RustDesk-Win
 curl -s -L -o loop.bat https://raw.githubusercontent.com/ItsChanGat/RustDesk-Windows-Github-RDP/refs/heads/main/loop.bat
 curl -s -L -o show.bat https://raw.githubusercontent.com/ItsChanGat/RustDesk-Windows-Github-RDP/refs/heads/main/show.bat
 curl -s -L -o rustdesk.exe "https://github.com/rustdesk/rustdesk/releases/download/1.2.3-1/rustdesk-1.2.3-1-x86_64.exe"
-curl -s -L -o time.py https://raw.githubusercontent.com/ItsChanGat/RustDesk-Windows-Github-RDP/refs/heads/main/timelimit.py
 powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\VMQuickConfig.exe'"
 pip install pyautogui --quiet
 pip install psutil --quiet
