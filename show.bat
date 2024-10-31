@@ -13,7 +13,7 @@ echo Blog : https://technical-dose.blogspot.com/
 
 echo Youtube : https://www.youtube.com/@Jor3a-Ti9niya
 
-echo Facebook : https://web.facebook.com/Jor3a-Ti9niya
+echo Facebook : https://www.facebook.com/Jor3a-Ti9niya
 
 echo Instagram : https://www.instagram.com/jor3a_ti9niya/
 
